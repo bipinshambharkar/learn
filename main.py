@@ -19,3 +19,17 @@ for glass in ["water", "juice", "buttermilk"]:
     print (glass)
 
 
+print("\n== Functions==")
+
+def f(x):
+    return 2*x
+
+
+def g(x, y):
+    return 2*x*x + 3*y
+
+result = f(1)
+print (f"function f value: {result}")
+
+result2 = g(3, 4)
+print (f"function f value: {result2}")

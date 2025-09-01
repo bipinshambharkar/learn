@@ -33,3 +33,16 @@ print (f"function f value: {result}")
 
 result2 = g(3, 4)
 print (f"function f value: {result2}")
+
+
+# Function to work with strings
+def string_work(s):
+    print(f"Original: {s}")
+    print(f"Uppercase: {s.upper()}")
+    print(f"Lowercase: {s.lower()}")
+    print(f"Reversed: {s[::-1]}")
+    print(f"Length: {len(s)}")
+    
+
+print("\n== String Function Demo ==")
+string_work("Hello World!")
